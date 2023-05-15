@@ -51,13 +51,20 @@ body a:hover {
 .body-link {
     background-color: goldenrod;
     padding: 1px;
-    border-radius: 5px;
+    border-radius: 4px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 li {
-    list-style: none;
-    padding: 5px;
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+
 }
 .list-highlight {
-    list-style: square;
+    border-color: goldenrod;
     color: goldenrod;
 }
