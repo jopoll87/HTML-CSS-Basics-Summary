@@ -14,6 +14,7 @@ img {
 body{
     margin-bottom: 30px;
     font-family: 'Nanum Gothic Coding', monospace;
+    
 }
 div {
     width: 750px;
@@ -23,34 +24,25 @@ div {
     border-radius: 10px;
     color: oldlace;
 }
-footer {
-    text-align: center;
-    
-}
+
 h3 {
-    background-color: orange;
-    padding: 10px;
-    width: 250px;
-    margin: 30px auto;
-    border-radius: 10px;
+    
 }
 html {
     background-color: lavenderblush;
 }
-a {
+body a {
     text-decoration: none;
+    background-color: orange;
+    width: 250px;
 }
-footer a:hover {
-    color: blueviolet;
-    font-family: 'Nanum Gothic Coding', monospace;
-}
-
 body a:hover {
     color: oldlace;
 }
+
 .body-link {
     background-color: goldenrod;
-    padding: 1px;
+    padding: 3px 7px;
     border-radius: 4px;
 }
 ul {
@@ -67,4 +59,18 @@ li {
 .list-highlight {
     border-color: goldenrod;
     color: goldenrod;
+}
+footer {
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    padding-top: 30px;
+    
+}
+footer a {
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+footer a:hover {
+    color: blueviolet;
+    
 }
